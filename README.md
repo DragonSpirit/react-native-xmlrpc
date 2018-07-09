@@ -13,7 +13,7 @@ xmlrpc client for react-native
 ```js
 import xmlrpc from 'react-native-xmlrpc'
 const client = new xmlrpc('YOUR_XMLRPC_URL')
-client.call(method, [params], function (err, value) {
+client.call(method, [params], (err, value) => {
   // your handler
 })
 ```
